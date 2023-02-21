@@ -5,6 +5,7 @@ const Button = (props) => {
   return (
     <>
       <button
+        onClick={props.onClick}
         style={{
           color: `${props.color}`,
           backgroundColor: `${props.backgroundColor}`,

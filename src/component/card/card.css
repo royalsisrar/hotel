@@ -1,19 +1,23 @@
 
-  #card {
+  .card {
     width: 300px;
     min-width: 300px; /* To Prevent Element's Width From Going Below 300px */
-  
     background: #fff;
     font-family: "Open Sans", sans-serif;
     box-shadow: rgba(0, 0, 0, 0.176) 0px 16px 48px 0px;
     border-radius: 7px;
     overflow: auto;
     cursor: pointer;
+    padding: 20px;
    
+  }
+  .card img{
+    width: 100%;
+    height: 70%;
   }
  
   
-  #img {
+  .img {
     height: 350px;
     width: 100%;
     object-fit: cover;
@@ -22,7 +26,6 @@
   
   #title {
     text-align: center;
-    /* color: #000; */
   }
   
   #desc {
@@ -31,4 +34,9 @@
     line-height: 1.6rem;
     word-spacing: 2px;
   }
-  
+  button{
+    padding: 8px 14px;
+    color: #fff;
+    background-color: #000;
+    border-radius: 5px;
+  }

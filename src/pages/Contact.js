@@ -1,12 +1,14 @@
-import React from 'react'
-import Header from '../component/header/Header'
+import React from "react";
+import Contactt from "../component/contact form/Contactt";
+import Header from "../component/header/Header";
 
 const Contact = () => {
   return (
     <>
-    <Header />
+      <Header />
+      <Contactt />
     </>
-  )
-}
+  );
+};
 
-export default Contact
+export default Contact;

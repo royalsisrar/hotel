@@ -35,3 +35,22 @@
     font-weight: bold;
     /* font-weight: 600; */
 }
+@media screen and (max-width: 992px){
+    .banner-content h1{
+        font-size: 42px;
+    }
+    .banner-content p{
+        margin: 0;
+        padding-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .banner-content h1{
+        font-size: 33px;
+    }
+    .banner-content p{
+       font-size: 16px;
+        
+    }
+}

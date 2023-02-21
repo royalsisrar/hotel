@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Banner from "../component/banner/Banner.js";
 import Button from "../component/button/Button.js";
 import Card from "../component/card/Card.js";
+import Footer from "../component/footer/Footer.js";
 import Header from "../component/header/Header.js";
 import Images from "../images/hotel4.jpg";
 
@@ -20,8 +21,42 @@ const Home = () => {
         backgroundPosition="center"
       />
       <div className="cards">
-        <Card />
-        <Card />
+        <Card
+          para="new product"
+          tittle="Hotel"
+          img="https://picsum.photos/205/300"
+          btn="search"
+        />
+        <Card
+          para="new product"
+          tittle="Hotel"
+          img="https://picsum.photos/201/300"
+          btn="search"
+        />
+        <Card
+          para="new product"
+          tittle="Hotel"
+          img="https://picsum.photos/202/300"
+          btn="search"
+        />
+        <Card
+          para="new product"
+          tittle="Hotel"
+          img="https://picsum.photos/255/300"
+          btn="search"
+        />
+        <Card
+          para="new product"
+          tittle="Hotel"
+          img="https://picsum.photos/241/300"
+          btn="search"
+        />
+        <Card
+          para="new product"
+          tittle="Hotel"
+          img="https://picsum.photos/252/300"
+          btn="search"
+        />
       </div>
       <Link to="/hotel">
         <div className="home-btn">
@@ -36,6 +71,7 @@ const Home = () => {
         </div>
       </Link>
       <br></br>
+      <Footer />
     </>
   );
 };
